@@ -1,0 +1,115 @@
+.paragraph1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 22px;
+}
+.frameContainer,
+.frameWrapper,
+.paragraphWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.paragraphWrapper {
+  align-self: stretch;
+  flex-direction: column;
+}
+.frameContainer,
+.frameWrapper {
+  max-width: 100%;
+}
+.frameContainer {
+  flex: 1;
+  flex-direction: column;
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 1px 0 0;
+  box-sizing: border-box;
+}
+.iAmA {
+  height: 24px;
+  width: 78px;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 78px;
+  white-space: nowrap;
+}
+.paragraph2 {
+  height: 24px;
+  width: 80px;
+  flex-direction: row;
+}
+.frameParent,
+.paragraph2,
+.paragraphContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.paragraphContainer {
+  align-self: stretch;
+  flex-direction: row;
+  color: #4f4f4f;
+}
+.frameParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 20px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid #dee2e6;
+  box-sizing: border-box;
+  width: 100%;
+  flex-direction: column;
+  padding: 24px 43px 24px 23px;
+  gap: 8px;
+  height: 100%;
+}
+.vectorIcon {
+  height: 10px;
+  width: 10px;
+  position: relative;
+}
+.vectorWrapper {
+  position: absolute;
+  top: 10px;
+  left: 512px;
+  border-radius: 29px;
+  background-color: #e5e5e5;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.paragraph {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  text-align: left;
+  font-size: 14px;
+  color: rgba(84, 89, 94, 0.6);
+  font-family: Inter;
+}
+.alert04 {
+  width: 546px;
+  height: 124px;
+  letter-spacing: normal;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+}
+@media screen and (max-width: 273px) {
+  .frameParent {
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}

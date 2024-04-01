@@ -1,0 +1,145 @@
+.sbIconGeo,
+.time {
+  line-height: 21px;
+  font-weight: 600;
+}
+.time {
+  position: relative;
+  letter-spacing: -0.32px;
+}
+.sbIconGeo {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mastersStatusBarPartsA {
+  width: 16px;
+  position: relative;
+  height: 21px;
+  text-align: center;
+  font-size: 11px;
+}
+.timeGeo {
+  position: absolute;
+  top: 14px;
+  left: calc(50% - 18.5px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2px;
+}
+.mastersStatusBarPartsL {
+  position: absolute;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(56px);
+  width: 96px;
+  height: 44px;
+}
+.mastersStatusBarPartsA1,
+.mastersStatusBarPartsA2 {
+  width: 20px;
+  position: relative;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.mastersStatusBarPartsA2 {
+  width: 16px;
+}
+.level2Icon,
+.level3Icon,
+.level4Icon,
+.level5Icon,
+.level6Icon,
+.level7Icon,
+.levelStartIcon {
+  width: 2px;
+  position: relative;
+  height: 8.5px;
+}
+.level8Icon,
+.level9Icon {
+  display: none;
+  opacity: 0.2;
+}
+.level8Icon,
+.level9Icon,
+.levelLastIcon {
+  width: 2px;
+  position: relative;
+  height: 8.5px;
+}
+.batteryLevels {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.levels,
+.vectorIcon {
+  position: absolute;
+  top: 4.5px;
+  left: 2px;
+  width: 16px;
+  height: 8.5px;
+}
+.vectorIcon {
+  top: 2.5px;
+  left: 0;
+  width: 26.5px;
+  height: 12.5px;
+  opacity: 0.5;
+}
+.mastersStatusBarPartsA3 {
+  width: 28px;
+  position: relative;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.indicators {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.mastersStatusBar,
+.mastersStatusBarPartsR {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 44px;
+}
+.mastersStatusBarPartsR {
+  backdrop-filter: blur(56px);
+  width: 96px;
+}
+.mastersStatusBar {
+  width: 100%;
+  left: 0;
+}
+.statusBar {
+  width: 375px;
+  background-color: #fff;
+  max-width: 100%;
+  text-align: right;
+  font-size: 16px;
+  color: #000;
+  font-family: "SF Pro Text";
+}
